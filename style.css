@@ -17,6 +17,7 @@ nav{
     padding-top: 15px;
     padding-bottom: 15px;
     padding-inline: 108px;
+    z-index: 4;
 }
 .nav_logo{
     width: 100%;
@@ -588,10 +589,78 @@ letter-spacing: 0em;
 color: #676767;
 }
 
-@media screen and (max-width: 992px) {
+/* @media screen and (max-width: 947px) {
 
-  }
+    nav{
+        flex-direction: column;
+        z-index: 4;
+    }
+
+    .nav_link{
+        flex-direction: column;
+    }
+
+    .nav_link ul{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #announcement{
+        width: 100vw;
+    }
+    #hero_div1{
+        display: none;
+    }
+    #flex-courses{
+        flex-wrap: wrap;
+    }
+    .partner_grid{
+        grid-template-columns: auto auto auto;
+    }
+    
+    .p_wall{
+        flex:50%;
+    }
+    .partner_grid img{
+        width: 25%;
+    }
+
+
+  } */
   
   @media screen and (max-width: 600px) {
     
+    nav{
+        flex-direction: column;
+        z-index: 4;
+    }
+
+    .nav_link{
+        flex-direction: column;
+    }
+
+    .nav_link ul{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #announcement{
+        width: 100vw;
+    }
+    #hero_div1{
+        display: none;
+    }
+    #flex-courses{
+        flex-wrap: wrap;
+    }
+    .partner_grid{
+        grid-template-columns: auto auto auto;
+    }
+    
+    .p_wall{
+        flex:50%;
+    }
+    .partner_grid img{
+        width: 25%;
+    }
   }
