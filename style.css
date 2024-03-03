@@ -589,7 +589,7 @@ letter-spacing: 0em;
 color: #676767;
 }
 
-/* @media screen and (max-width: 947px) {
+@media screen and (max-width: 947px) {
 
     nav{
         flex-direction: column;
@@ -626,7 +626,7 @@ color: #676767;
     }
 
 
-  } */
+  }
   
   @media screen and (max-width: 600px) {
     
